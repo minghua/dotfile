@@ -4,3 +4,51 @@
 [submodule "bundle/ack"]
 	path = bundle/ack
 	url = git://github.com/mileszs/ack.vim.git
+[submodule "bundle/haml"]
+	path = bundle/haml
+	url = git://github.com/tpope/vim-haml.git
+[submodule "bundle/vim-indent"]
+	path = bundle/vim-indent
+	url = git://github.com/michaeljsmith/vim-indent-object.git
+[submodule "bundle/javascript"]
+	path = bundle/javascript
+	url = git://github.com/pangloss/vim-javascript.git
+[submodule "bundle/jslint"]
+	path = bundle/jslint
+	url = git://github.com/hallettj/jslint.vim.git
+[submodule "bundle/vim-markdown-preview"]
+	path = bundle/vim-markdown-preview
+	url = git://github.com/robgleeson/vim-markdown-preview.git
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = git://github.com/scrooloose/nerdcommenter.git
+[submodule "bundle/surround"]
+	path = bundle/surround
+	url = git://github.com/tpope/vim-surround.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = git://github.com/ervandew/supertab.git
+[submodule "bundle/textitle"]
+	path = bundle/textitle
+	url = git://github.com/timcharper/textile.vim.git
+[submodule "bundle/rails"]
+	path = bundle/rails
+	url = git://github.com/tpope/vim-rails.git
+[submodule "bundle/rspec"]
+	path = bundle/rspec
+	url = git://github.com/taq/vim-rspec.git
+[submodule "bundle/snip"]
+	path = bundle/snip
+	url = git://github.com/msanders/snipmate.vim.git
+[submodule "bundle/markdown"]
+	path = bundle/markdown
+	url = git://github.com/tpope/vim-markdown.git
+[submodule "bundle/align"]
+	path = bundle/align
+	url = git://github.com/tsaleh/vim-align.git
+[submodule "bundle/unimpaired"]
+	path = bundle/unimpaired
+	url = git://github.com/tpope/vim-unimpaired.git
+[submodule "bundle/searchfold"]
+	path = bundle/searchfold
+	url = git://github.com/vim-scripts/searchfold.vim.git
