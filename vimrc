@@ -122,3 +122,10 @@ set directory=~/.vim/backup
 
 " xterm not recognized right by vim
 set term=builtin_ansi
+
+" let g:ConqueTerm_TERM = 'xterm-color'
+" noremap ,tb :ConqueTermSplit bash<CR>
+" noremap ,tp :ConqueTermSplit irb<CR>
+
+" vnoremap <C-c><C-c> :<C-u>call conque_term#send_selected(visualmode())<CR><Esc><C-w>p
+" noremap <C-c><C-c> V:call conque_term#send_selected(visualmode())<CR><Esc><C-w>p
