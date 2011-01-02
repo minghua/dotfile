@@ -6,6 +6,9 @@ set nocompatible
 set number
 set ruler
 syntax on
+set encoding=utf-8
+set nobackup
+set noswapfile
 
 " Whitespace stuff
 set nowrap
