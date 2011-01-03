@@ -178,6 +178,8 @@ endif
 " xterm not recognized right by vim
 set term=builtin_ansi
 
+let g:CommandTMatchWindowAtTop = 1
+
 " let g:ConqueTerm_TERM = 'xterm-color'
 " noremap ,tb :ConqueTermSplit bash<CR>
 " noremap ,tp :ConqueTermSplit irb<CR>

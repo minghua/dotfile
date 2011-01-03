@@ -52,3 +52,12 @@
 [submodule "bundle/searchfold"]
 	path = bundle/searchfold
 	url = git://github.com/vim-scripts/searchfold.vim.git
+[submodule "bundle/auto-tag"]
+	path = bundle/auto-tag
+	url = https://github.com/vim-scripts/AutoTag.git
+[submodule "bundle/jquery"]
+	path = bundle/jquery
+	url = https://github.com/vim-scripts/AutoTag.git
+[submodule "bundle/coffee-script"]
+	path = bundle/coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
