@@ -200,7 +200,34 @@ endif
 " xterm not recognized right by vim
 set term=builtin_ansi
 
+" Writes on make/shell commands
+set autowrite
+
+" Use zsh.
+set shell=zsh
+
 let g:CommandTMatchWindowAtTop = 1
+" Explicitly set 256 color support
+set t_Co=256
+
+" TABS: Firefox style, open tabs with command-<tab number>
+map <silent> <D-1> :tabn 1<CR>
+map <silent> <D-2> :tabn 2<CR>
+map <silent> <D-3> :tabn 3<CR>
+map <silent> <D-4> :tabn 4<CR>
+map <silent> <D-5> :tabn 5<CR>
+map <silent> <D-6> :tabn 6<CR>
+map <silent> <D-7> :tabn 7<CR>
+map <silent> <D-8> :tabn 8<CR>
+map <silent> <D-9> :tabn 9<CR>
+
+
+" Open new horizontal split windows below current
+set splitbelow
+
+" Open new vertical split windows to the right
+set splitright
+
 
 " let g:ConqueTerm_TERM = 'xterm-color'
 " noremap ,tb :ConqueTermSplit bash<CR>

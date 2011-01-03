@@ -16,15 +16,14 @@ if has("gui_macvim")
   set fuoptions=maxhorz,maxvert
 
   " Command-T for CommandT
-  macmenu &File.New\ Tab key=<nop>
+  "macmenu &File.New\ Tab key=<nop>
   "map <D-t> :CommandT<CR>
-  "map <D-t> <plug>:Peepopen<CR>
 
   " Command-Shift-F for Ack
   macmenu Window.Toggle\ Full\ Screen\ Mode key=<nop>
   map <D-F> :Ack<space>
 
-  "macmenu &File.New\ Tab key=<nop>
+  macmenu &File.New\ Tab key=<nop>
   map <D-t> <Plug>PeepOpen
 
   " Command-e for ConqueTerm
