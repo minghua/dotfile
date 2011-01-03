@@ -9,6 +9,61 @@ syntax on
 set encoding=utf-8
 set nobackup
 set noswapfile
+set showcmd           " show incomplete cmds down the bottom
+set showmode          " show current mode down the bottom
+set showmatch         " briefly jump to matching }] when typing
+set nostartofline     " don't jump to start of line as a side effect (i.e. <<)
+set scrolloff=3       " lines to keep visible before and after cursor
+set sidescrolloff=7   " columns to keep visible before and after cursor
+set sidescroll=1      " continuous horizontal scroll rather than jumpy
+
+set updatetime=1000   " reduce updatetime so current tag in taglist is highlighted faster
+set autoread          " suppress warnings when git,etc. changes files on disk.
+set nrformats=alpha,hex " C-A/C-X works on dec, hex, and chars (not octal so no leading 0 ambiguity)
+set wildmode=list:longest   "make cmdline tab completion similar to bash
+set wildmenu                "enable ctrl-n and ctrl-p to scroll thru matches
+set wildignore=*.o,*.obj,*~ "stuff to ignore when tab completing
+
+set history=1000               "store lots of :cmdline history
+
+set visualbell      " don't beep constantly, it's annoying.
+set t_vb=           " and don't flash the screen either (terminal anyway...
+
+
+" search for a tags file recursively from cwd to /
+set tags=.tags,tags;/
+
+" autocmd FileType ruby setlocal shiftwidth=2 softtabstop=2
+" ruby includes ! and ? in method names (array.empty?)
+autocmd FileType ruby setlocal iskeyword+=!,?
+
+
+" indenting, languages
+
+set expandtab         " use spaces instead of tabstops
+set smarttab          " use shiftwidth when hitting tab instead of sts (?)
+set autoindent        " try to put the right amount of space at the beginning of a new line
+set shiftwidth=2
+set softtabstop=2
+
+" autocmd FileType ruby setlocal shiftwidth=2 softtabstop=2
+" ruby includes ! and ? in method names (array.empty?)
+autocmd FileType ruby setlocal iskeyword+=!,?
+
+
+" <C-L> redraws the screen and also turns off highlighting the current search
+nnoremap <C-L> :nohl<CR><C-L>
+
+" BUNDLE: git://github.com/tpope/vim-surround.git
+" tell surround not to break the visual s keystroke (:help vs)
+xmap S <Plug>Vsurround
+
+
+
+
+
+
+
 
 " Whitespace stuff
 set nowrap
