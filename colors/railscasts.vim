@@ -33,6 +33,27 @@ hi Error      guifg=#FFFFFF guibg=#990000
 hi MatchParen guifg=NONE    guibg=#d80700
 hi Title      guifg=#E6E1DC
 
+hi Cursor  guifg=NONE guibg=#ffffff gui=NONE
+hi Visual  guifg=NONE guibg=#ff00ff gui=NONE
+hi CursorLine  guifg=NONE guibg=#484d60 gui=NONE
+hi CursorColumn  guifg=NONE guibg=#484d60 gui=NONE
+hi LineNr  guifg=#97979e guibg=#484d60 gui=NONE
+hi VertSplit  guifg=#666978 guibg=#666978 gui=NONE
+hi MatchParen  guifg=#cc7833 guibg=NONE gui=NONE
+hi StatusLine  guifg=#e6e1dc guibg=#666978 gui=bold
+hi StatusLineNC  guifg=#e6e1dc guibg=#666978 gui=NONE
+hi Pmenu  guifg=#ffffff guibg=NONE gui=NONE
+hi PmenuSel  guifg=NONE guibg=#ff00ff gui=NONE
+hi IncSearch  guifg=NONE guibg=#745b51 gui=NONE
+hi Search  guifg=NONE guibg=#745b51 gui=NONE
+hi Directory  guifg=#6d9cbe guibg=NONE gui=NONE
+hi Folded  guifg=#bc9458 guibg=#484d60 gui=NONE
+
+
+
+
+
+
 hi Comment    guifg=#1d9ae0 guibg=NONE     gui=italic
 hi! link Todo Comment
 
