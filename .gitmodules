@@ -79,3 +79,6 @@
 [submodule "bundle/taglist"]
 	path = bundle/taglist
 	url = https://github.com/vim-scripts/taglist.vim.git
+[submodule "bundle/synchecker"]
+	path = bundle/synchecker
+	url = https://github.com/scrooloose/syntastic.git

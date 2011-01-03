@@ -221,6 +221,10 @@ map <silent> <D-7> :tabn 7<CR>
 map <silent> <D-8> :tabn 8<CR>
 map <silent> <D-9> :tabn 9<CR>
 
+let g:syntastic_auto_loc_list=1
+let g:syntastic_enable_signs=1
+
+
 
 " Open new horizontal split windows below current
 set splitbelow
