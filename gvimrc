@@ -1,6 +1,13 @@
 set guioptions-=T
 set guifont=Monaco:h16
+"set guifont=Inconsolata:h14 
 set transparency=4
+" Tab headings 
+set gtl=%t gtt=%F
+
+
+"set columns=120 
+"set lines=50
 
 color railscasts
 
@@ -29,6 +36,8 @@ endif
 
 " Start without the toolbar
 set guioptions-=T
+set stal=2 " turn on tabs by default
+set anti " Antialias font
 
 " Default gui color scheme
 
