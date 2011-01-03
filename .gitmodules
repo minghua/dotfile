@@ -64,3 +64,9 @@
 [submodule "bundle/indexSearch"]
 	path = bundle/indexSearch
 	url = https://github.com/vim-scripts/IndexedSearch.git
+[submodule "bundle/snipmate-snippets"]
+	path = bundle/snipmate-snippets
+	url = https://github.com/scrooloose/snipmate-snippets.git
+[submodule "bundle/block"]
+	path = bundle/block
+	url = https://github.com/bronson/vim-ruby-block-conv.git
