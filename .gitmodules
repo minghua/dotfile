@@ -70,3 +70,6 @@
 [submodule "bundle/block"]
 	path = bundle/block
 	url = https://github.com/bronson/vim-ruby-block-conv.git
+[submodule "bundle/vim-ruby"]
+	path = bundle/vim-ruby
+	url = https://github.com/vim-ruby/vim-ruby.git
