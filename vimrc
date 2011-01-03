@@ -30,6 +30,27 @@ set history=1000               "store lots of :cmdline history
 set visualbell      " don't beep constantly, it's annoying.
 set t_vb=           " and don't flash the screen either (terminal anyway...
 
+let mapleader = ","
+imap jj <Esc> " Professor VIM says '87% of users prefer jj over esc', jj abrams disagrees
+
+
+" Vertical and horizontal split then hop to a new buffer
+noremap <Leader>v :vsp^M^W^W<cr>
+noremap <Leader>h :split^M^W^W<cr>
+" Cursor highlights ***********************************************************
+set cursorline
+"set cursorcolumn
+map <Leader>p <C-^> " Go to previous file
+
+
+" autocomplpop ***************************************************************
+" complete option
+"set complete=.,w,b,u,t,k
+"let g:AutoComplPop_CompleteOption = '.,w,b,u,t,k'
+"set complete=.
+let g:AutoComplPop_IgnoreCaseOption = 0
+let g:AutoComplPop_BehaviorKeywordLength = 1
+
 
 " search for a tags file recursively from cwd to /
 set tags=.tags,tags;/
