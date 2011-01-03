@@ -1,5 +1,6 @@
 set guioptions-=T
 set guifont=Monaco:h16
+set transparency=4
 
 color railscasts
 

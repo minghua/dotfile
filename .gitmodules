@@ -76,3 +76,6 @@
 [submodule "bundle/bufexplore"]
 	path = bundle/bufexplore
 	url = https://github.com/vim-scripts/bufexplorer.zip.git
+[submodule "bundle/taglist"]
+	path = bundle/taglist
+	url = https://github.com/vim-scripts/taglist.vim.git
