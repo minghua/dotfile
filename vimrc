@@ -41,7 +41,7 @@ noremap <Leader>h :split^M^W^W<cr>
 set cursorline
 "set cursorcolumn
 map <Leader>p <C-^> " Go to previous file
-
+map <D-r> :QuickRun ruby<CR>
 
 " autocomplpop ***************************************************************
 " complete option

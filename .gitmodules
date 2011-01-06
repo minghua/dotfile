@@ -82,3 +82,6 @@
 [submodule "bundle/synchecker"]
 	path = bundle/synchecker
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/quickrun"]
+	path = bundle/quickrun
+	url = https://github.com/thinca/vim-quickrun.git
