@@ -80,12 +80,8 @@ nnoremap <C-L> :nohl<CR><C-L>
 " tell surround not to break the visual s keystroke (:help vs)
 xmap S <Plug>Vsurround
 
-
-
-
-
-
-
+nnoremap / /\v
+cnoremap %s/ %s/\v
 
 " Whitespace stuff
 set nowrap
