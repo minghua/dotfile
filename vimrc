@@ -235,3 +235,7 @@ set splitright
 
 " vnoremap <C-c><C-c> :<C-u>call conque_term#send_selected(visualmode())<CR><Esc><C-w>p
 " noremap <C-c><C-c> V:call conque_term#send_selected(visualmode())<CR><Esc><C-w>p
+
+" let coffee_compile_on_save = 1
+
+
