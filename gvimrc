@@ -1,7 +1,7 @@
 set guioptions-=T
 set guifont=Monaco:h16
 "set guifont=Inconsolata:h14 
-set transparency=4
+set transparency=2
 " Tab headings 
 set gtl=%t gtt=%F
 
@@ -9,7 +9,6 @@ set gtl=%t gtt=%F
 "set columns=120 
 "set lines=50
 
-color railscasts
 
 if has("gui_macvim")
   " Fullscreen takes up entire screen
@@ -35,7 +34,11 @@ if has("gui_macvim")
   " Command-][ to increase/decrease indentation
   vmap <D-]> >gv
   vmap <D-[> <gv
+
+  color railscasts
 endif
+
+"color slat
 
 " Start without the toolbar
 set guioptions-=T

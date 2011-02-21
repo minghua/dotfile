@@ -237,5 +237,4 @@ set splitright
 " noremap <C-c><C-c> V:call conque_term#send_selected(visualmode())<CR><Esc><C-w>p
 
 " let coffee_compile_on_save = 1
-
-
+execute "HeadlightsTurnOn"
