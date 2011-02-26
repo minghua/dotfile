@@ -100,3 +100,6 @@
 [submodule "bundle/mustache"]
 	path = bundle/mustache
 	url = git://github.com/juvenn/mustache.vim.git
+[submodule "bundle/ruby-debugger"]
+	path = bundle/ruby-debugger
+	url = git://github.com/astashov/vim-ruby-debugger.git
